@@ -9,20 +9,84 @@
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- Anime JS Library -->
     <script src="js/anime.min.js"></script>
 
     <!-- PathSlider Library -->
     <script src="js/path-slider.js"></script>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo1.css" />
 
 
 </head>
 
 <body>
+
+    <!-- Slider Component Desktop View -->
+    <div class="page">
+        <div class="part left">
+            <div class="left-content">
+                <h2>ABC 456</h2>
+                <p>We are the best web company in the world</p>
+            </div>
+            
+        </div>
+        <div class="part right"></div>
+        <div class="container">
+
+        
+        <!-- Path Slider Container -->
+            <div class="path-slider">
+    
+                <!-- SVG path to slide the items -->
+                <svg width="550px" height="544px" viewBox="0 0 550 544">
+                    <circle cx="150" cy="155" r="120" fill="none" class="path-slider__path" />
+                </svg>
+    
+                <!-- Slider items -->
+                <a href="index.html" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Chat</h2></div> -->
+                </a>
+                <a href="index.html" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Alarm clock</h2></div> -->
+                </a>
+                <a href="index.html" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Camera</h2></div> -->
+                </a>
+                <a href="index.html" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Envelope</h2></div> -->
+                </a>
+                <a href="#lightbulb" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                </a>
+                <a href="#lightbulb" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                </a>
+                <a href="#lightbulb" class="path-slider__item">
+                    <div class="item__circle"></div>
+                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                </a>
+            </div>
+            
+            <div class="para">
+                <p class="mb-0">Redifining</p>
+                <h1 class="fw-bold"> UX Strategy</h1>
+                <p class="bottom-text">and UI Design</p>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Component Desktop View -->
 
 
     <!-- Bootstrap JavaScript -->
@@ -31,7 +95,7 @@
         crossorigin="anonymous">
     </script>
     <!-- Pathslider JavaScript -->
-    <script src="js/demo1.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
