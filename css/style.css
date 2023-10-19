@@ -46,11 +46,26 @@ body {
   background-color: #0D1218; /* Change this to your desired color */
 }
 
-.right {
-  width: 60%;
-  background-color: #0D1218; /* Change this to your desired color */
+/* First page */
+.food-img-img1 {
+  margin: -3%;
+  max-width: 380px;
+  max-height: 220px;
 }
 
+.food-img-img2 {
+
+  max-width: 340px;
+  max-height: 340px;
+}
+
+.food-img-img3 {
+
+  margin-left: 9%;
+  max-width: 300px;
+  max-height: 300px;
+}
+/* First page */
 
 .container {
   text-align: center;
@@ -60,7 +75,7 @@ body {
 }
 
 .path-slider {
-  left:100px;
+
   width: 310px;
   height: 310px;
   border-radius: 100%;
@@ -74,7 +89,7 @@ body {
 }
 
 .para {
-  left:10%;
+ 
  margin: 3px 0 0 0 ;
   text-align: left;
   color: white;
@@ -92,6 +107,7 @@ h1 {
 
 .bottom-text{
   text-align: end;
+
 }
 
 
