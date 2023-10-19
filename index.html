@@ -11,7 +11,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 
-    
+
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -21,6 +21,9 @@
     <!-- PathSlider Library -->
     <script src="js/path-slider.js"></script>
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/636730019d.js" crossorigin="anonymous"></script>
+
 
 
 </head>
@@ -28,72 +31,83 @@
 <body>
 
     <!-- Slider Component Desktop View -->
-    <div class="page">
-        <div class="part left">
-            <div class="left-content">
-                <h2>ABC 456</h2>
-                <p>We are the best web company in the world</p>
-            </div>
-            
-        </div>
-        <div class="part right"></div>
-        <div class="container">
+    <section>
+        <div class="page">
+            <div class="part left">
+                <div class="left-content">
+                    <h2 class="left-content-heading">ABC 456</h2>
+                    <p class="left-content-para">We are the best web development company in the world</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <p> View Case Study </p>
+                            <i class="fa-solid fa-arrow-right ms-3 mt-1"></i>
+                        </div>
 
-        
-        <!-- Path Slider Container -->
-            <div class="path-slider">
-    
-                <!-- SVG path to slide the items -->
-                <svg width="550px" height="544px" viewBox="0 0 550 544">
-                    <circle cx="150" cy="155" r="120" fill="none" class="path-slider__path" />
-                </svg>
-    
-                <!-- Slider items -->
-                <a href="index.html" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Chat</h2></div> -->
-                </a>
-                <a href="index.html" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Alarm clock</h2></div> -->
-                </a>
-                <a href="index.html" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Camera</h2></div> -->
-                </a>
-                <a href="index.html" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Envelope</h2></div> -->
-                </a>
-                <a href="#lightbulb" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
-                </a>
-                <a href="#lightbulb" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
-                </a>
-                <a href="#lightbulb" class="path-slider__item">
-                    <div class="item__circle"></div>
-                    <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
-                </a>
+                        <p class="px-4">SKIP</p>
+
+                    </div>
+                </div>
+
             </div>
-            
-            <div class="para">
-                <p class="mb-0">Redifining</p>
-                <h1 class="fw-bold"> UX Strategy</h1>
-                <p class="bottom-text">and UI Design</p>
+            <div class="part right"></div>
+            <div class="container">
+
+
+                <!-- Path Slider Container -->
+                <div class="path-slider">
+
+                    <!-- SVG path to slide the items -->
+                    <svg width="550px" height="544px" viewBox="0 0 550 544">
+                        <circle cx="150" cy="155" r="120" fill="none" class="path-slider__path" />
+                    </svg>
+
+                    <!-- Slider items -->
+                    <a href="index.html" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Chat</h2></div> -->
+                    </a>
+                    <a href="index.html" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Alarm clock</h2></div> -->
+                    </a>
+                    <a href="index.html" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Camera</h2></div> -->
+                    </a>
+                    <a href="index.html" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Envelope</h2></div> -->
+                    </a>
+                    <a href="#lightbulb" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                    </a>
+                    <a href="#lightbulb" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                    </a>
+                    <a href="#lightbulb" class="path-slider__item">
+                        <div class="item__circle"></div>
+                        <!-- <div class="item__title"><h2>Light bulb</h2></div> -->
+                    </a>
+                </div>
+
+                <div class="para">
+                    <p class="mb-0">Redifining</p>
+                    <h1 class="fw-bold"> UX Strategy</h1>
+                    <p class="bottom-text">and UI Design</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <!-- Slider Component Desktop View -->
 
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
     <!-- Pathslider JavaScript -->
     <script src="js/script.js"></script>
 </body>

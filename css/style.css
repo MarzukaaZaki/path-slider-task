@@ -30,6 +30,21 @@ body {
   width: 57%;
   background-color: #16263B; /* Change this to your desired color */
 }
+.left-content{
+  margin: 60% 0 0 9%;
+
+}
+.left-content-heading{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.left-content-para{
+  width: 37%;
+}
+.right {
+  width: 60%;
+  background-color: #0D1218; /* Change this to your desired color */
+}
 
 .right {
   width: 60%;
